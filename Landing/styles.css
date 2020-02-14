@@ -48,6 +48,7 @@ a {
 
 .grid {
     display: flex;
+
 }
 
 header {
@@ -110,6 +111,7 @@ nav {
         text-align: center;
         padding: 0 50px;
     }
+
     nav li {
         padding-bottom: 5px;
     }
@@ -126,7 +128,7 @@ nav > ul {
 @media (max-width: 650px) {
     nav > ul {
         flex-direction: column;
-        color:white;
+        color: white;
     }
 }
 
@@ -240,7 +242,7 @@ nav > ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: calc(100%  / 3);
+    width: calc(100% / 3);
     margin: 10px;
     border: 1px solid #000;
     border-radius: 20px;
@@ -287,6 +289,7 @@ nav > ul {
     #pricing {
         flex-direction: column;
     }
+
     .product {
         max-width: 300px;
         width: 100%;
