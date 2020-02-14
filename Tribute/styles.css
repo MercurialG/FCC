@@ -2,14 +2,18 @@
     display: grid;
     grid: auto auto / 1fr 1fr 1fr;
     font-family: "Roboto Light";
-    background: rgba(41, 109, 107, 0.44);
+background-image: linear-gradient( 89deg,  rgba(253,220,155,1) 26.2%, rgba(255,215,165,1) 48.5% );
+
+
+
+);
 
 }
 
 #title {
     width: 60vw;
     grid-column: 2;
-    margin-left: 40%;
+    margin-left: 36%;
 }
 
 #img-div {
@@ -50,6 +54,10 @@ p {
 }
 
 #list {
+background-image: linear-gradient( 300deg,  rgba(253,220,155,1) 12.2%, rgba(255,215,165,1) 55.5% );
+
+    border:solid;
+    border-radius: 15px;
     grid-column: 2;
     list-style-type: disc
     max-width: 550px;
